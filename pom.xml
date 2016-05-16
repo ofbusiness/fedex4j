@@ -9,10 +9,10 @@
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <properties>
+   <!-- <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <github.maven.repository>file:///${project.basedir}/repo/</github.maven.repository>
-    </properties>
+    </properties>-->
 
 <!--    <repositories>
         &lt;!&ndash;other repositories if any&ndash;&gt;
@@ -85,11 +85,11 @@
         </dependency>
     </dependencies>
 
-
+<!--
     <distributionManagement>
         <repository>
             <id>maven-repository</id>
             <url>${github.maven.repository}</url>
         </repository>
-    </distributionManagement>
+    </distributionManagement>-->
 </project>
