@@ -41,6 +41,12 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+        <repository>
+            <id>fedex4j-releases</id>
+            <url>file://${basedir}/../fedex4j/repo</url>
+        </repository>
+    </distributionManagement>
     <dependencies>
         <dependency>
             <groupId>org.apache.axis</groupId>
